@@ -1,6 +1,7 @@
 # Docker Challenge
 
 #Challenge 1
+
 ##Setup
 To setup you must follow these steps:
 1. In your challenge1folder, add a public folder inside of it. Inside of this folder you will add 2 new files, the first being an index.html file that contains your name and your student ID.
