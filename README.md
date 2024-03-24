@@ -1,8 +1,8 @@
 # Docker Challenge
 
-#Challenge 1
+Challenge 1
 
-##Setup
+Setup
 To setup you must follow these steps:
 1. In your challenge1folder, add a public folder inside of it. Inside of this folder you will add 2 new files, the first being an index.html file that contains your name and your student ID.
 2. The secondd file that you will add into your publicfolder will be you dockerfile. You will have to have installed docker onto VSCode or whatever IDE you chose to use.
