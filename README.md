@@ -99,7 +99,7 @@ MYSQL_USER=<placeholder>
 MYSQL_PASSWORD=<placeholder>
 MYSQL_HOST=<placeholder>
 ```
-2. You will then need to create a docker-compose file which should consist of this
+2. You will then need to create a docker-compose file which should consist of the following:
 ```
 version: '3.8'
 
@@ -145,7 +145,7 @@ volumes:
 ```
 This docker compose file defines three services, node-ervice, nginx and a database server. It orchestreates these services to work together as a multi-container application environment and how the different services work togther.
 
-3. To build and run this compose file use the command `docker compose up` to get it started. If successful the page should look like the image provided below and this URL `http://localhost:8080/api/books/`.
+3. To build and run this compose file use the command `docker compose up` to get it started. If successful the page should look like the image provided below and this URL `http://localhost:8080/api/books/` should result in the output below.
 
 ![image](https://github.com/CryptoJoe33/docker-challenge-template/assets/117700080/d920069c-32a7-40cb-aaa0-596b6650512f)
 
@@ -154,7 +154,7 @@ This docker compose file defines three services, node-ervice, nginx and a databa
 
 ## Challenge 4
 
-1. Before you make any changes to the scaling of your node-services you should note down the hostname, which should consistently be the same. To find this out use the URL `http://localhost:8080/api/stats`. In this case it is `896ecab7032f` 
+1. Before you make any changes to the scaling of your node-services you should note down the hostname, which should consistently be the same. To find this, use the URL `http://localhost:8080/api/stats`. In this case it is `896ecab7032f` 
 
 ![image](https://github.com/CryptoJoe33/docker-challenge-template/assets/117700080/6f574b3a-2f6c-43a6-a8f6-ccc6fa8b0dae)
 
