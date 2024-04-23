@@ -1,0 +1,34 @@
+Challenge 1 CMDS
+VERIFY OF CONTAINER
+docker ps
+
+RUNNING CONTAINER SHORTCUT
+docker start ff498a2
+
+
+RUNNING DOCKER CONTAINER FULL PATH
+docker run --name my-static-container -d -p 8080:80 challenge1
+
+
+DOCKER BUILD
+docker build -t challenge1 .
+
+
+REQUEST TO SITE
+curl http://localhost:8080
+
+FORMAT RESPONSE
+$response = Invoke-WebRequest -Uri http://localhost:8080 -UseBasicParsing
+$response.Content
+
+____________________________________
+
+CHALLENGE 2 CMDS:
+
+Make sure you cd to the sub-directory aka challenge2
+BUILDING THE CONTAINER:
+docker build -t dynamic-container/nodeapp:latest .
+
+
+RUNNING DOCKER COMPOSE:
+docker-compose up -d
